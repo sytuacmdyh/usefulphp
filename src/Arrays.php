@@ -1,7 +1,7 @@
 <?php
 namespace Dyh;
 
-class Arrays
+trait Arrays
 {
     /**
      * 二维数组根据字段进行排序
