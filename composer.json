@@ -1,0 +1,16 @@
+{
+    "name": "yzcczdyh/phpuseful",
+    "description": "some useful function and classes",
+    "authors": [
+        {
+            "name": "dyh",
+            "email": "yzcczdyh@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dyh\\": "src"
+        }
+    }
+}
