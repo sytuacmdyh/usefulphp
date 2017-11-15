@@ -11,7 +11,7 @@ trait Arrays
      * @param string $sort 排序顺序标志 SORT_DESC 降序；SORT_ASC 升序
      * @return mixed
      */
-    function arraySort(&$array, $field, $sort = 'SORT_DESC')
+    public function arraySort(&$array, $field, $sort = 'SORT_DESC')
     {
         $arrSort = array();
         foreach ($array as $uniqid => $row) {
